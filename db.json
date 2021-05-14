@@ -1,42 +1,40 @@
 {
-    "logs": [
-        {
-            "id": 1,
-            "message": "Changed hard drive on workstation 005",
-            "attention": false,
-            "date": "14-05-2021",
-            "tech": "Sam Smith"
-        },
-        {
-            "id": 2,
-            "message": "Workstation 007 not posting",
-            "attention": true,
-            "date": "14-05-2021",
-            "tech": "John Doe"
-        },
-        {
-            "id": 3,
-            "message": "Changed memory on workstation 050",
-            "attention": false,
-            "date": "14-05-2021",
-            "tech": "Sara Wilson"
-        }
-    ],
-    "techs": [
-        {
-            "id": 1,
-            "firstName": "John",
-            "lastName": "Doe"
-        },
-        {
-            "id": 2,
-            "firstName": "Sam",
-            "lastName": "Smith"
-        },
-        {
-            "id": 3,
-            "firstName": "Sara",
-            "lastName": "Wilson"
-        }
-    ]
+  "logs": [
+    {
+      "id": 3,
+      "message": "server is up and running in 1121",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2021-05-14T18:17:08.283Z"
+    },
+    {
+      "message": "Connection to the internet is fixed ",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2021-05-14T17:54:26.340Z",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Mark",
+      "lastName": "Zuckerberg",
+      "id": 4
+    },
+    {
+      "firstName": "Jim",
+      "lastName": "Carrey",
+      "id": 5
+    }
+  ]
 }
